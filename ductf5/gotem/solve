@@ -1,0 +1,4 @@
+ curl \
+--request POST https://web-hah-got-em-20ac16c4b909.2024.ductf.dev/forms/chromium/convert/html \
+--form files=@index.html \
+-o my.pdf
