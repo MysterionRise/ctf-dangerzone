@@ -1,0 +1,13 @@
+secretsdump.py -sam ../samiam/sam.bak -system ../samiam/system.bak LOCAL
+
+Impacket v0.12.0.dev1+20240626.193148.f827c8c7 - Copyright 2023 Fortra
+
+[*] Target system bootKey: 0xa88f47504785ba029e8fa532c4c9e27b
+[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:476b4dddbbffde29e739b618580adb1e:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+[*] Cleaning up...
+
+
+./john --format=NT ~/projects/ctf-dangerzone/ductf5/samiam/hash.txt
+
