@@ -1,0 +1,6 @@
+pycryptodome
+sympy
+gmpy2
+pwntools
+scikit-learn
+pandas
