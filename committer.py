@@ -55,7 +55,7 @@ def commit_files(start_date):
         run_git_command(
             f"GIT_COMMITTER_DATE='{timestamp}' git commit -m 'feat: adding file {file}' --date='{timestamp}'")
 
-        date += timedelta(hours=random.randint(0, 12),
+        date += timedelta(hours=random.randint(0, 6),
                           minutes=random.randint(0, 59),
                           seconds=random.randint(0, 59))
 
